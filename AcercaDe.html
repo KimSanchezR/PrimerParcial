@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+    <meta name="description" content="Portafolio Personal desarrollado con los temas vistos en clase."/>
+    <meta name="author" content="Kimberly Sanchez Ramirez" />
+    <meta name="copyright" content="Copyright 2021 - Kimberly Sanchez Ramirez" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body class="">
+    <section class="grid-container" id="sec">
+        <header class="header">
+            <div id="toggle" onclick="toggle()">
+            </div>
+            <ul class="breadcrumbs">
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="AcercaDe.html">Acerca de</a></li>
+            </ul>
+        </header>
+        <article class="main secciones">
+
+            <article class="article1">
+                <h1><i class="fa fa-user-circle-o AnimacionTexto" aria-hidden="true"></i> Quien soy?</h1><br>
+                <div class="w3-card-4">
+                    <div class="w3-container">
+                        <p><i class="fa fa-vcard-0" aria-hidden="true"></i> Descripci&oacute;n:</p>
+                        <hr>
+                        <p>Soy de Cartago, tengo 23 años y me considero una persona amable.</p><br>
+
+                        <p><i class="fa fa-star-o" aria-hidden="true"></i> Pasatiempos:</p>
+                        <hr>
+                        <p>Me gusta ver series, reunirme con mis amigos, tambien me encanta el &aacute;rea de la panader&iacute;a y paso haciendo postes o reposter&iacute;a en mi tiempo libre y la cultura japonesa y coreana.</p><br>
+                    </div>
+                </div>
+            </article>
+            <article class="article2">
+                <h1><i class="fa fa-graduation-cap AnimacionTexto" aria-hidden="true"></i> Educaci&oacute;n:</h1>
+                <br>
+                <ul>
+                    <li class="child">Colegio Universitario de Cartago <br>
+                        <p>Diplomado en Tecnolog&iacute;s de la Informaci&oacute;n, 2015 - 2017. </p>
+                    </li><br>
+                    <li class="child">Universidad Florencio del Castillo <br>
+                        <p>Ingenier&iacute;a Inform&aacute;tica, 2019 - 2021.</p>
+                    </li>
+                </ul>
+            </article>
+            <article class="article3">
+                <h1><i class="fa fa-list-alt AnimacionTexto" aria-hidden="true"></i> Conocimientos:</h1>
+                <br>
+                <ul class="Ul3">
+                    <li><i class="fa fa-database" aria-hidden="true"></i> SQL Server</li>
+                    <li><i class="fa fa-database" aria-hidden="true"></i> MySQL</li>
+                    <li><i class="fa fa-database" aria-hidden="true"></i> Oracle (Un poco)</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> ASP.NET</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> CSS</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> HTML</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> Bootstrap</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> Javascript</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> MVC</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> PHP</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> JQuery</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> C#</li>
+                    <li><i class="fa fa-file-code-o" aria-hidden="true"></i> Java (Un poco)</li>
+            </article>
+            <article class="article4">
+                <h1><i class="fa fa-info AnimacionTexto" aria-hidden="true"></i> Experiencia:</h1>
+                <br>
+                <ul>
+                    <li class="child">Desarrollador Web PHP <br>
+                        <p>Grupo MKTech Solutions, 1 año y 8 meses. </p>
+                    </li><br>
+                    <li class="child">Software Developer<br>
+                        <p>Proinsa Proyectos Inteligentes S.A, 4 meses.</p>
+                    </li><br>
+                    <li class="child">Analista Desarrollador<br>
+                        <p>Dinamica Consultores S.A, 1 año y 4 meses.</p>
+                    </li>
+                </ul>
+            </article>
+
+        </article>
+        <aside class="sidebar">
+            <ul class="sci">
+                <li><img class="ImagenS" src="imagenes/facebook.png" alt=""></li>
+                <li><img class="ImagenS" src="imagenes/instagram.png" alt=""></li>
+                <li><img class="ImagenS" src="imagenes/linkedin.png" alt=""></li>
+            </ul>
+        </aside>
+        <footer class="footer">
+            Copyright &copy; 2021 - Kimberly S&aacute;nchez Ram&iacute;rez
+        </footer>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="AcercaDe.html">Acerca de</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    function toggle() {
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+</script>
